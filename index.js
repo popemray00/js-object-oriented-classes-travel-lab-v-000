@@ -5,7 +5,7 @@ class Driver {
   }
 
   startDate() {
-    driver.startDate = new Date()
+    driver.startDate = instanceof Date()
   }
 
   yearsExperienceFromBeginningOf(year) {
