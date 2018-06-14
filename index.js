@@ -17,5 +17,7 @@ class Route {
     this.endingLocation = endingLocation
   }
 
-  blocksTravelled()
+  blocksTravelled() {
+    return (this.beginningLocation - this.endingLocation)
+  }
 }
